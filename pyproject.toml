@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "quantum-nlp"
+version = "0.1.0"
+description = ""
+authors = ["mullzhang <mullzhang@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8"
+dwave-ocean-sdk = "^3.3.0"
+matplotlib = "^3.4.2"
+nltk = "^3.6.2"
+gensim = "3.8.3"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.7"
+flake8 = "^3.9.2"
+jupyterlab = "^3.0.16"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

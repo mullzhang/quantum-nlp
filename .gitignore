@@ -141,4 +141,6 @@ dmypy.json
 # End of https://www.toptal.com/developers/gitignore/api/python
 
 # Data
-data
+data/*.zip
+data/*.npy
+data/*.model
